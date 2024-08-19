@@ -10,4 +10,19 @@ package AmidTickets;
  */
 public class ListaClientes {
     
+    public void AgregarTickets(Tickets tickets){
+        Tickets.add(Tickets tickets);         
+       
+    }
+    
+    public void EliminarTickets (Tickets tickets){
+        Tickets.remove(Tickets tickets);
+    }
+    
+    
+    
+    
+    
+   
+    
 }
