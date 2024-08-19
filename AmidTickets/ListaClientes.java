@@ -4,19 +4,23 @@
  */
 package AmidTickets;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Student
  */
 public class ListaClientes {
     
+     ArrayList<Tickets> tickets = new ArrayList<>();
+    
     public void AgregarTickets(Tickets tickets){
-        Tickets.add(Tickets tickets);         
+        tickets.add(Tickets);         
        
     }
     
     public void EliminarTickets (Tickets tickets){
-        Tickets.remove(Tickets tickets);
+        tickets.remove(Tickets);
     }
     
     
