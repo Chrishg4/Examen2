@@ -36,7 +36,11 @@ public class Tickets {
     public Tickets() {
         this(0,"");
     }
-    
+
+    @Override
+    public String toString() {
+        return "Tickets{" + "numero=" + numero + ", tipo=" + tipo + '}';
+    }
     
     
     
